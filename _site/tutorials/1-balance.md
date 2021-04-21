@@ -335,22 +335,10 @@ Once Moab kits ship, look here for instructions on deploying the trained brain o
 <a name="next-steps"></a>
 
 ## Step 9: Export and Deploy to Azure IoT Edge (Bonus Step)
----
-title: Quickstart create an Azure IoT Edge device on Linux | Microsoft Docs 
-description: In this quickstart, learn how to create an IoT Edge device on Linux and then deploy prebuilt code remotely from the Azure portal. 
-author: kgremban
-manager: philmea
-ms.author: kgremban
-ms.date: 04/07/2021
-ms.topic: quickstart
-ms.service: iot-edge
-services: iot-edge
-ms.custom: mvc, devx-track-azurecli
----
 
 # Quickstart: Deploy your first IoT Edge module to a virtual Linux device
 
-[!INCLUDE [iot-edge-version-201806-or-202011](../../includes/iot-edge-version-201806-or-202011.md)]
+[!INCLUDE [iot-edge-version-201806-or-202011](https://github.com/MicrosoftDocs/azure-docs/blob/master/includes/iot-edge-version-201806-or-202011.md)]
 
 Test out Azure IoT Edge in this quickstart by deploying containerized code to a virtual Linux IoT Edge device. IoT Edge allows you to remotely manage code on your devices so that you can send more of your workloads to the edge. For this quickstart, we recommend using an Azure virtual machine for your IoT Edge device, which allows you to quickly create a test machine and then delete it when you're finished.
 
@@ -598,20 +586,6 @@ Manage your Azure IoT Edge device from the cloud to deploy a module that will se
 Include content included below to support versioned steps in Linux quickstart. Can update include file once Windows quickstart supports v1.2 -->
 
 One of the key capabilities of Azure IoT Edge is deploying code to your IoT Edge devices from the cloud. *IoT Edge modules* are executable packages implemented as containers. In this section, you'll deploy a pre-built module from the [IoT Edge Modules section of Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules) directly from Azure IoT Hub.
-
-The module that you deploy in this section simulates a sensor and sends generated data. This module is a useful piece of code when you're getting started with IoT Edge because you can use the simulated data for development and testing. If you want to see exactly what this module does, you can view the [simulated temperature sensor source code](https://github.com/Azure/iotedge/blob/027a509549a248647ed41ca7fe1dc508771c8123/edge-modules/SimulatedTemperatureSensor/src/Program.cs).
-
-Follow these steps to start the **Set Modules** wizard to deploy your first module from Azure Marketplace.
-
-1. Sign in to the [Azure portal](https://portal.azure.com) and go to your IoT hub.
-
-1. From the menu on the left, under **Automatic Device Management**, select **IoT Edge**.
-
-1. Select the device ID of the target device from the list of devices.
-
-1. On the upper bar, select **Set Modules**.
-
-   ![Screenshot that shows selecting Set Modules.](./media/quickstart/select-set-modules.png)
 
 ### Modules
 #### Select device and add modules
