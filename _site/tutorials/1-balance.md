@@ -28,6 +28,7 @@ Teach an AI brain to balance a ball in the center of a plate using a custom simu
 - [Step 6: Evaluate training progress](#step-6-evaluate-training-progress)
 - [Step 7: Assess the trained brain](#step-7-assess-the-trained-brain)
 - [Step 8: Export and Deploy](#step-8-export-and-deploy)
+- [Step 9: Export and Deploy to Azure IoT Edge](#step-9-export-and-deploy-to-azure-iot-edge)
 - [Next steps](#next-steps)
 - [Feedback and discussion](#feedback-and-discussion)
 
@@ -333,6 +334,8 @@ Here is a video of a trained brain from this tutorial, deployed on the Moab hard
 Once Moab kits ship, look here for instructions on deploying the trained brain onto your bot.
 
 <a name="next-steps"></a>
+
+<a name="step-9-export-and-deploy-to-azure-iot-edge"></a>
 
 ## Step 9: Export and Deploy to Azure IoT Edge (Bonus Step)
 
